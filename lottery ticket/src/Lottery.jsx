@@ -20,7 +20,7 @@ function Lottery (){
             </div>
             <br></br>
             <button onClick={buyTicket}>Buy New Ticket</button>
-            <h2>{isWinning && "Congratulations, you won!"}</h2>
+            <h2>{isWinning && "Congratulations, you won the lottery!"}</h2>
         </div>
     );
 }

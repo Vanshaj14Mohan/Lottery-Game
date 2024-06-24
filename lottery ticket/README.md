@@ -1,3 +1,3 @@
 # React + Vite
 
-A Lottery game created using react 
+A Lottery game created using react logic 

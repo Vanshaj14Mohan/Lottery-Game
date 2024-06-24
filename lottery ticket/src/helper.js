@@ -1,3 +1,5 @@
+//functions used for lottery.jsx
+
 //generate ticket 
 function genTicket (n){ //user defined number
     let arr = new Array(n); //n numbers
