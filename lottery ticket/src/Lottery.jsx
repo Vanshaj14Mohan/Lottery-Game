@@ -3,8 +3,8 @@ import "./Lottery.css"
 import { genTicket, sum } from "./helper";
 
 function Lottery (){
-    let [ticket, setTicket] = useState(genTicket(3));
-    let isWinning = sum(ticket) === 15;
+    let [ticket, setTicket] = useState(genTicket(3)); //3 no of tickets
+    let isWinning = sum(ticket) === 15; //sum of tickets should be 15
 
     let buyTicket = () =>{
         setTicket(genTicket(3));
