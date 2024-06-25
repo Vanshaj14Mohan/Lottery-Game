@@ -2,12 +2,17 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
-import Lottery from "./Lottery"
+import Lottery from "./Lottery";
+// import TicketNum from "./TicketNum";
+import Ticket from "./Ticket";
 
   function App(){
     return (
       <>
-      <Lottery/>
+      {/* <Lottery/> */}
+      {/* <TicketNum num={7}/> */}
+      <Ticket ticket = {[5, 3, 5]}/>
+      <Ticket ticket = {[5, 3, 5, 7]}/>
       </>
     );
   }
