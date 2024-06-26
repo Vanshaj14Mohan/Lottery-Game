@@ -4,15 +4,16 @@
 import './App.css'
 import Lottery from "./Lottery";
 // import TicketNum from "./TicketNum";
-import Ticket from "./Ticket";
+// import Ticket from "./Ticket";
 
   function App(){
     return (
       <>
+      <Lottery n={3} winningSum={15}/>
       {/* <Lottery/> */}
       {/* <TicketNum num={7}/> */}
-      <Ticket ticket = {[5, 3, 5]}/>
-      <Ticket ticket = {[5, 3, 5, 7]}/>
+      {/* <Ticket ticket = {[5, 3, 5]}/> */}
+      {/* <Ticket ticket = {[5, 3, 5, 7]}/> */}
       </>
     );
   }
